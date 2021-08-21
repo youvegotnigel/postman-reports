@@ -25,7 +25,7 @@
 									"    pm.expect(jsonData).to.not.have.lengthOf(0);",
 									"});",
 									"",
-									"//postman.setNextRequest(\"Ping\");",
+									"postman.setNextRequest(\"Ping\");",
 									""
 								],
 								"type": "text/javascript"
@@ -1131,7 +1131,7 @@
 							"    pm.response.to.be.success;",
 							"});",
 							"",
-							"//NextRequest(null);"
+							"postman.setNextRequest(null);"
 						],
 						"type": "text/javascript"
 					}
